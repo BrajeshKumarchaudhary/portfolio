@@ -7,6 +7,11 @@ body {
   background: transparent;
 }
 
+.mybg{
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+}
+
 body::before {
   content: "";
   position: fixed;
@@ -151,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   position: relative;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 16px;
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
@@ -1087,6 +1092,7 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
 
 
 
